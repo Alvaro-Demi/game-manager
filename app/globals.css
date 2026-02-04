@@ -1,26 +1,103 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #460b54;
+  --foreground: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-exo);
+  --font-display: var(--font-orbitron);
+  --font-mono: ui-monospace, "Consolas", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+
+  body {
+    background: linear-gradient(
+      135deg,
+      #0d0d12 0%,
+      #1a0a2e 40%,
+      #2d1b4e 70%,
+      #350147 100%
+    );
+    background-attachment: fixed;
   }
-}
+
 
 body {
-  background: var(--background);
+  background-attachment: fixed;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-exo), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-orbitron), system-ui, sans-serif;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+.button {
+  position: relative;
+  min-width: 120px;
+  height: 40px;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #4d1948;
+  background-color: #6a2175;
+}
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color 0.25s 0.05s;
+}
+
+.button .button__icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 39px;
+  background-color: #906098;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: right center;
+}
+
+.button .svg {
+  width: 30px;
+  stroke: #fff;
+}
+
+.button:hover {
+  background: #906098;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 100%;
+}
+
+/* Pequeño retraso en el texto para que el icono “empuje” como en la original */
+.button:active .button__icon {
+  background-color: #2e8644;
+}
+
+.button:active {
+  border: 1px solid #2e8644;
 }

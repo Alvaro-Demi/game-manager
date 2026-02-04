@@ -1,0 +1,103 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Mario Kart 64",
+      "platform": "Nintendo 64",
+      "genre": "Kart Racing",
+      "releaseDate": "1996-12-14",
+      "coverUrl": "https://uvejuegos.com/img/caratulas/671/1_Mario-Kart-64-EU.jpg",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "title": "Call of Duty",
+      "platform": "Nintendo Switch",
+      "genre": "First-Person Shooter",
+      "releaseDate": "2003-10-29",
+      "coverUrl": "https://assetsio.gnwcdn.com/co1wkf.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64",
+      "genre": "Action RPG",
+      "releaseDate": "1998-11-21",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "title": "Halo: Combat Evolved",
+      "platform": "Xbox",
+      "genre": "First-Person Shooter",
+      "releaseDate": "2001-11-15",
+      "coverUrl": "https://www.anaitgames.com/images/uploads/2012/05/halo4-cover-art.jpg",
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "title": "Final Fantasy VII",
+      "platform": "PlayStation",
+      "genre": "JRPG",
+      "releaseDate": "1997-01-31",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg",
+      "favorite": true
+    },
+    {
+      "id": 6,
+      "title": "Minecraft",
+      "platform": "PC",
+      "genre": "Sandbox",
+      "releaseDate": "2011-11-18",
+      "coverUrl": "https://i.pinimg.com/736x/f5/60/cc/f560cc7d9a907ae6e4bc5d914a844889.jpg",
+      "favorite": true
+    },
+    {
+      "id": 7,
+      "title": "God of War",
+      "platform": "PlayStation 4",
+      "genre": "Action",
+      "releaseDate": "2018-04-20",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+      "favorite": false
+    },
+    {
+      "id": 8,
+      "title": "Red Dead Redemption 2",
+      "platform": "PlayStation 4",
+      "genre": "Open World",
+      "releaseDate": "2018-10-26",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+      "favorite": false
+    },
+    {
+      "title": "BLACK OPS II",
+      "platform": "PS3",
+      "genre": "SHOOTER",
+      "releaseDate": "2014-10-10",
+      "coverUrl": "https://img.asmedia.epimg.net/resizer/v2/https%3A%2F%2Fstatic.prisa.com%2Fgamepedia%2Fimagenes%2F2018%2F07%2F02%2Fgame_cover%2F1530534449_534449_016690_gameplatform.jpg?auth=01335ac4ffc86222527e66bbba9b01f21ae6183cf0df0ccd272f11fe42e8b1d2&width=140&height=210&smart=true",
+      "favorite": false,
+      "id": 9
+    },
+    {
+      "title": "MAFIA II",
+      "platform": "PC",
+      "genre": "ACTION",
+      "releaseDate": "2015-08-10",
+      "coverUrl": "https://i.3djuegos.com/juegos/5606/mafia_1/fotos/ficha/mafia_1-1717275.jpg",
+      "favorite": false,
+      "id": 10
+    },
+    {
+      "title": "MAFIA I",
+      "platform": "PS3",
+      "genre": "ACTION",
+      "releaseDate": "2013-10-10",
+      "coverUrl": "https://i.3djuegos.com/juegos/2487/mafia_2/fotos/ficha/mafia_2-1696063.jpg",
+      "favorite": true,
+      "id": 11
+    }
+  ]
+}
