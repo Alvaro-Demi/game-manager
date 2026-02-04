@@ -15,6 +15,12 @@ export default function GameCardClient({
   return (
     <article className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg shadow-black/20 transition hover:-translate-y-1 hover:border-white/20">
       <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl bg-white/10">
+      {game.favorite && (
+    <div className="absolute right-2 top-2 rounded-full bg-yellow-500/25 px-2 py-1 text-xs font-semibold text-yellow-200 backdrop-blur">
+      ★
+    </div>
+  )}
+  
   {game.coverUrl ? (
     <img
       src={game.coverUrl}
@@ -30,7 +36,11 @@ export default function GameCardClient({
 
 <div className="p-3">
   <h3 className="truncate text-lg font-semibold">{game.title}</h3>
-
+  {game.favorite && (
+  <span className="inline-block align-middle rounded-full bg-yellow-500/20 px-2 py-0.5 text-xs text-yellow-200 w-fit">
+    Favorito ★
+  </span>
+)}
   <p className="mt-1 text-sm text-white/70">
     {game.platform} · {game.genre}
   </p>

@@ -45,6 +45,11 @@ export default function GameDetailPage() {
       ) : (
         <header className="mt-4 rounded-xl border border-white/10 bg-white/5 p-4 sm:p-6">
           <h1 className="text-2xl font-bold">{game.title}</h1>
+          {game.favorite && (
+  <span className="inline-block align-middle rounded-full bg-yellow-500/20 px-2 py-0.5 text-xs text-yellow-200 w-fit">
+    Favorito ★
+  </span>
+)}
           <p className="mt-1 text-sm text-white/70">
             {game.platform} · {game.genre}
           </p>
