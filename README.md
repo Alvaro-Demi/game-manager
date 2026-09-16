@@ -1,8 +1,8 @@
 # 🎮 Game Manager
 
-Aplicación web desarrollada con **Next.js y TypeScript** para gestionar un catálogo de videojuegos.
+Aplicación web desarrollada con **Next.js, React y TypeScript** para gestionar un catálogo de videojuegos.
 
-El proyecto permite consultar videojuegos, acceder a sus páginas de detalle, crear y editar registros y gestionar una lista de favoritos.
+El proyecto combina una interfaz web con rutas API integradas en Next.js y un servidor JSON utilizado como fuente de datos durante el desarrollo.
 
 ## ✨ Funcionalidades
 
@@ -11,25 +11,38 @@ El proyecto permite consultar videojuegos, acceder a sus páginas de detalle, cr
 * 📄 Páginas de detalle
 * ➕ Creación de videojuegos
 * ✏️ Edición de videojuegos
-* 🗑️ Gestión de registros
+* 🗑️ Eliminación de registros
 * ⭐ Sistema de favoritos
 * 🧩 Componentes reutilizables
 * 🔀 Rutas dinámicas
-* 🌐 API integrada en Next.js
+* 🌐 API Routes de Next.js
+* 💾 Persistencia mediante JSON Server
 
 ## 🛠️ Tecnologías
+
+### Frontend
 
 * Next.js
 * React
 * TypeScript
-* HTML
-* CSS
+* Tailwind CSS
+
+### Backend / datos
+
+* Next.js API Routes
+* JSON Server
 * REST API
-* Git / GitHub
+
+### Herramientas
+
+* ESLint
+* Git
+* GitHub
+* npm
 
 ## 🏗️ Estructura del proyecto
 
-```text id="k8v0ne"
+```text
 game-manager/
 ├── app/
 │   ├── api/
@@ -45,7 +58,7 @@ game-manager/
 
 ## 🔌 API
 
-El proyecto utiliza rutas API integradas en Next.js para gestionar los datos de los videojuegos.
+El proyecto utiliza **API Routes de Next.js** para gestionar diferentes operaciones relacionadas con los videojuegos.
 
 Entre las operaciones disponibles se encuentran:
 
@@ -53,40 +66,57 @@ Entre las operaciones disponibles se encuentran:
 * Obtener un videojuego por ID
 * Crear videojuegos
 * Actualizar videojuegos
+* Eliminar videojuegos
+
+Durante el desarrollo se utiliza **JSON Server** como fuente de datos.
 
 ## 🎯 Objetivo
 
-El objetivo del proyecto fue desarrollar una aplicación web utilizando **Next.js y TypeScript**, trabajando con rutas dinámicas, componentes, formularios, operaciones CRUD y una API integrada en el propio proyecto.
+El objetivo del proyecto fue desarrollar una aplicación web utilizando **Next.js, React y TypeScript**, trabajando con:
+
+* Componentes reutilizables
+* Rutas dinámicas
+* Formularios
+* Operaciones CRUD
+* API Routes
+* Gestión de datos
+* Navegación entre páginas
+* Diseño mediante Tailwind CSS
 
 ## 💻 Instalación
 
 Clona el repositorio:
 
-```bash id="yrf8r7"
+```bash
 git clone https://github.com/Alvaro-Demi/game-manager.git
 ```
 
 Accede al proyecto:
 
-```bash id="ypq8av"
+```bash
 cd game-manager
 ```
 
 Instala las dependencias:
 
-```bash id="7xq4k9"
+```bash
 npm install
 ```
 
-Inicia el servidor de desarrollo:
+Inicia el entorno de desarrollo:
 
-```bash id="1o5x6g"
+```bash
 npm run dev
 ```
 
-Después abre:
+Este comando inicia simultáneamente:
 
-```text id="8xcz91"
+* Next.js
+* JSON Server
+
+La aplicación estará disponible en:
+
+```text
 http://localhost:3000
 ```
 
@@ -94,4 +124,4 @@ http://localhost:3000
 
 Proyecto académico desarrollado durante el ciclo de **Desarrollo de Aplicaciones Web (DAW)**.
 
-El repositorio se mantiene como muestra de trabajo con Next.js, TypeScript, APIs, rutas dinámicas y operaciones CRUD.
+El repositorio se mantiene como muestra de trabajo con Next.js, React, TypeScript, API Routes, CRUD, rutas dinámicas y Tailwind CSS.
