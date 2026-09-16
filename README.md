@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Game Manager
 
-## Getting Started
+Aplicación web desarrollada con **Next.js y TypeScript** para gestionar un catálogo de videojuegos.
 
-First, run the development server:
+El proyecto permite consultar videojuegos, acceder a sus páginas de detalle, crear y editar registros y gestionar una lista de favoritos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Funcionalidades
+
+* 🎮 Catálogo de videojuegos
+* 🔎 Consulta de videojuegos
+* 📄 Páginas de detalle
+* ➕ Creación de videojuegos
+* ✏️ Edición de videojuegos
+* 🗑️ Gestión de registros
+* ⭐ Sistema de favoritos
+* 🧩 Componentes reutilizables
+* 🔀 Rutas dinámicas
+* 🌐 API integrada en Next.js
+
+## 🛠️ Tecnologías
+
+* Next.js
+* React
+* TypeScript
+* HTML
+* CSS
+* REST API
+* Git / GitHub
+
+## 🏗️ Estructura del proyecto
+
+```text id="k8v0ne"
+game-manager/
+├── app/
+│   ├── api/
+│   │   └── games/
+│   ├── components/
+│   ├── favorites/
+│   └── games/
+├── lib/
+│   └── types.ts
+├── db.json
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔌 API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El proyecto utiliza rutas API integradas en Next.js para gestionar los datos de los videojuegos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Entre las operaciones disponibles se encuentran:
 
-## Learn More
+* Obtener videojuegos
+* Obtener un videojuego por ID
+* Crear videojuegos
+* Actualizar videojuegos
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Objetivo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+El objetivo del proyecto fue desarrollar una aplicación web utilizando **Next.js y TypeScript**, trabajando con rutas dinámicas, componentes, formularios, operaciones CRUD y una API integrada en el propio proyecto.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Instalación
 
-## Deploy on Vercel
+Clona el repositorio:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash id="yrf8r7"
+git clone https://github.com/Alvaro-Demi/game-manager.git
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Accede al proyecto:
+
+```bash id="ypq8av"
+cd game-manager
+```
+
+Instala las dependencias:
+
+```bash id="7xq4k9"
+npm install
+```
+
+Inicia el servidor de desarrollo:
+
+```bash id="1o5x6g"
+npm run dev
+```
+
+Después abre:
+
+```text id="8xcz91"
+http://localhost:3000
+```
+
+## 📌 Estado del proyecto
+
+Proyecto académico desarrollado durante el ciclo de **Desarrollo de Aplicaciones Web (DAW)**.
+
+El repositorio se mantiene como muestra de trabajo con Next.js, TypeScript, APIs, rutas dinámicas y operaciones CRUD.
